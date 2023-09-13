@@ -27,7 +27,7 @@ If one or both are empty, no authentication data is provided to the SMTP server 
 
 There is one mandatory parameter: `hostname`.
 The `hostname` may contain an IP address or a FQDN like `mail.gmail.com`.
-For authentication `username` and `password` also need to be supplied.
+For authentication `username` and `password` also need to be supplied. in case of using a gmail account please be aware that you need to generate an 'app-password' to connect to your mailbox. more information can be found here: https://support.google.com/accounts/answer/185833
 
 The `refresh`, `security`, `port`, `username` and `password` parameters are optional.
 
